@@ -16,8 +16,11 @@ body {
 h4 {
   font-weight: 700;
 }
-#logo > img {
+img {
   height: 90px;
+}
+.footer-text {
+  height: 50px;
 }
 .link {
   margin: 10px 20px;
