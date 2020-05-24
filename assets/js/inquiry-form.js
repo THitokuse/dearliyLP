@@ -11,7 +11,7 @@ $(function() {
   $('#cancel').on('click', function(e){
     e.preventDefault();
     const formData = $('form').serialize();
-    location.href=`/?${formData}`;
+    location.href=`/index.html?${formData}`;
   })
 
   // お問い合わせ確認ページ値入力
